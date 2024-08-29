@@ -1,12 +1,12 @@
 # Customer Churn Analysis for *Fictional Telecommunications Company*
 
 ## Table of Contents
-- [Business Question](##business-question)
-- [Data Source](##data-source)
-- [Tools Used](##tools-used)
-- [Analysis](##analysis)
-- [Insights](##insights)
-- [Suggestions](##suggestions)
+- [Business Question](#business-question)
+- [Data Source](#data-source)
+- [Tools Used](#tools-used)
+- [Analysis](#analysis)
+- [Insights](#insights)
+- [Suggestions](#suggestions)
 
 ## Business Question
 What customer demographics or business factors are **driving customer churn** at *Fictional Telecommunications Company*, and what strategies can we implement to **improve retention**?
@@ -23,7 +23,7 @@ What customer demographics or business factors are **driving customer churn** at
 
 ## Analysis
 
-![Customer Demographics & Churn](assets\demographic_churn1.png)
+![Customer Demographics & Churn](assets/demographic_churn2.png)
 *Nested bar chart showcasing distribution and churn rate across customer demographics*
 
 
@@ -42,7 +42,7 @@ There was a near even split between customers with and without customers. Howeve
 ### 5. Churn Rate by Dependent Status
 Almost two-thirds of customers reported not having any dependents. This segment of customers also had double the churn rate compared to those who claimed to have dependents. (70.04% no 29.96% yes; 31.28% vs 15.45)
 
-![Customer Distribution](assets\customer_distribution1.png)
+![Customer Distribution](assets/customer_distribution2.png)
 *Radial pie chart highlighting that a majority of customers are independent non-seniors*
 
 ### 6. Churn Rate by Phone Service Status
@@ -54,7 +54,7 @@ A deeper look at the 90.32% of customers with phone service revealed a fairly ev
 ### 8. Churn Rate by Internet Service
 The company offers two forms of internet service, fiber optic and DSL. 21.67% of customers do not have internet service. As expected, fiber optic is much more popular with 43.96% of customers choosing it over DSL. However, it also has a much higher churn rate associated with it. 41.89% compared to 18.96% churn for customers with DSL internet.
 
-![Internet Service](assets\internet_service1.png)
+![Internet Service](assets/internet_service2.png)
 *Nested bar graph showcasing the distribution and churn rates across internet services*
 
 ### 9. Churn Rate by Internet Add-Ons
@@ -63,22 +63,31 @@ The company also offers six different add-ons for internet service. The most two
 ### 10. Churn Rate by Contract Type
 The company offers three different contract options: Month-to-month, One year, and Two year. 55.02% of customers are signed up under Month-to-month contracts. However, it does account for almost half of the overall churn. The 2.83% churn rate associated with customers under a two year contract is unsurprising because of the longer committment. 
 
-![Contract Distribution](assets\contracts1.png)
+![Contract Distribution](assets/contracts2.png)
 *Nested bar graph highlighting the correlation between contract type and churn rate*
 
 ### 11. Churn Rate by Paperless Billing Status
-59.22% of total customers are signed up for paperless billing. These customers also have approximately double the churn rate compared to those who receive their billing statements physically.
+59.22% of total customers are signed up for paperless billing. These customers also have approximately double the churn rate compared to those who receive their billing statements physically (33.57% vs 16.33%).
 
 ### 12. Churn Rate by Payment Method
-Of the four available payment method options, electronic check is the most popular. However, customers that pay with electronic check also have the highest churn rate. 
+Of the four available payment method options, electronic check is the most popular. However, customers that pay with electronic check also have the highest churn rate (45.29%). 
+![Payment Method Distribution](assets/payement_method2.png)
+*Nested bar graph highlighting the greater churn rate from customers that use electronic check payments.*
 
 ### 13. Churn Rate by Charge Amount
 Based on the data, there does not appear to be a strong correlation between higher charges leading to higher churn rates. In fact, in the case of total charges, the median charge was much higher for customers who have not churned compared to those who have.
+| Charge Type      | Churn | Min Charge | Q1 Charge | Median Charge | Q3 Charge | Max Charge |
+|------------------|-------|------------|-----------|---------------|-----------|------------|
+| Monthly Charges  | No    | 18.25      | 25.10     | 64.43         | 88.40     | 118.75     |
+| Monthly Charges  | Yes   | 18.85      | 56.15     | 79.65         | 94.20     | 118.35     |
+| Total Charges    | No    | 18.80      | 577.10    | 1683.00       | 4264.06   | 8672.45    |
+| Total Charges    | Yes   | 18.85      | 134.50    | 703.55        | 2331.30   | 8684.80    |
+
 
 ### 14. Churn Rate by Tenure
 The data reveals that the highest number of customers (613) were in their first month of tenure with the company. Coincidentally, they also have the highest churn percentage (61.99%). Alternatively, the second largest group of customers is also the longest tenured group. Of the 362 customers with a 72-month tenure, only 1.66% have churned.
 
-![Tenure Distribution](assets\tenure1.png)
+![Tenure Distribution](assets/tenure2.png)
 *Nested bar graph showcasing distribution and churn rates across tenures*
 
 ## Insights

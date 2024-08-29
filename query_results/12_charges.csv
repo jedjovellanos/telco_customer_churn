@@ -1,5 +1,5 @@
 "charge_type","churn","min_charge","q1_charge","median_charge","q3_charge","max_charge"
-"Monthly Charges","No ","18.25",25.1,64.42500000000001,88.4,118.75
-"Monthly Charges","Yes","18.85",56.15,79.65,94.2,118.35
-"Total Charges","No ","18.8",8672.45,577.1,1683,4264.0625
-"Total Charges","Yes","18.85",8684.8,134.5,703.55,2331.3
+"Monthly Charges","No ","18.25",25.1,64.42500000000001,88.4,"118.75"
+"Monthly Charges","Yes","18.85",56.15,79.65,94.2,"118.35"
+"Total Charges","No ","18.8",577.1,1683,4264.0625,"8672.45"
+"Total Charges","Yes","18.85",134.5,703.55,2331.3,"8684.8"
