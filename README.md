@@ -6,7 +6,7 @@
 - [Tools Used](##tools-used)
 - [Analysis](##analysis)
 - [Insights](##insights)
-- [Suggestions](##suggestions)
+- [Suggestions](#suggestions)
 
 ## Business Question
 What customer demographics or business factors are **driving customer churn** at *Fictional Telecommunications Company*, and what strategies can we implement to **improve retention**?
