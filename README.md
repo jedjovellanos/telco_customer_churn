@@ -60,7 +60,7 @@ The company offers two forms of internet service, fiber optic and DSL. 21.67% of
 The company also offers six different add-ons for internet service. The most two popular add-ons, movie and tv streaming, also yield the highest churn rates (29.94% and 30.07% respectively). Only 28.67% of customers are signed up for the least popular add-on, online security. However, it does boast the lowest churn rate of all add-ons.
 
 ### 10. Churn Rate by Contract Type
-The company offers three different contract options: Month-to-month, One year, and Two year. 55.02% of customers are signed up under Month-to-month contracts. However, it does account for almost half of the overall churn. The 2.83% churn rate associated with customers under a two year contract is unsurprising because of the longer committment. 
+The company offers three different contract options: Month-to-month, One year, and Two year. 55.02% of customers are signed up under Month-to-month contracts. However, it does account for almost half of the overall churn (42.71%). The 2.83% churn rate associated with customers under a two year contract is unsurprising because of the longer committment. 
 
 ![Contract Distribution](assets/contracts2.png)
 *Nested bar graph highlighting the correlation between contract type and churn rate*
