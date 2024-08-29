@@ -1,5 +1,4 @@
 # Customer Churn Analysis for *Fictional Telecommunications Company*
-
 ## Table of Contents
 - [Business Question](#business-question)
 - [Data Source](#data-source)
