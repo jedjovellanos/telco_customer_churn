@@ -60,7 +60,7 @@ The overall churn rate for the company stands at **26.54%**. Key findings indica
 ![Tenure Distribution](assets/tenure2.png)
 - **Customers in their first month are 37 times more likely to churn compared to long-tenured customers.** New customers (less than one month tenure) have a churn rate of 61.99%, highlighting the importance of effective onboarding and customer support during the initial period. In contrast, customers with longer tenure, such as 72 months, show significantly lower churn rates (1.66%).  
 
-## 5. Recommendations
+## Recommendations
 1. **Senior Citizen Retention**  
    Leverage exit-survey data and customer feedback to design tailored support initiatives and offers for senior citizens, who experience the highest churn rates.
 
