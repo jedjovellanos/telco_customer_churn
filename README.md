@@ -9,7 +9,7 @@
 - [Recommendations](#recommendations)
 
 ## Background and Overview
-AB&C is a *fictional* multinational telecommunications company that provides mobile and fixed-line telephony, broadband, and digital entertainment services. It is one of the largest providers of mobile and internet services in the U.S. and offers a range of communications and media services for consumers and businesses.
+AB&C is a fictional multinational telecommunications company that provides mobile and fixed-line telephony, broadband, and digital entertainment services. It is one of the largest providers of mobile and internet services in the U.S. and offers a range of communications and media services for consumers and businesses.
  
 They are facing a challenge with customer churn, a critical factor impacting its revenue and growth potential. This analysis focuses on identifying the key demographics and business factors contributing to customer churn and explores opportunities to implement data-driven strategies to improve customer retention. 
 
